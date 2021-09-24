@@ -1,11 +1,16 @@
-import { Component, ElementRef, ViewChild, Input, Output, AfterViewInit, OnDestroy, EventEmitter } from '@angular/core';
+import { Component, ElementRef, ViewChild, Input, Output, AfterViewInit, OnDestroy, EventEmitter, ViewEncapsulation } from '@angular/core';
 import { FusionGridService } from './fusion-grid.service';
 import Events from './events';
 import { GridEvent, GridInitialized } from './fusion-grid.interface';
 
 @Component({
   selector: 'fusion-grid',
-  template: `<div #gridContainer style="width:1000px;height:500px"></div>`,
+  template: `<div #gridContainer style="width:100%;height:100%"></div>`,
+  styles:['.fusion-grid-container{ display: block; }'],
+  host:{
+    'class':'fusion-grid-container'
+  },
+  encapsulation:ViewEncapsulation.None
 })
 export class FusionGridComponent implements AfterViewInit, OnDestroy {
 
