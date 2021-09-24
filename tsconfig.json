@@ -7,7 +7,7 @@
     "sourceMap": true,
     "declaration": false,
     "paths": {
-      "fusion-grid": [
+      "angular-fusiongrid": [
         "dist/fusion-grid/fusion-grid",
         "dist/fusion-grid"
       ]

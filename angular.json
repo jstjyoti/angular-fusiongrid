@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "fusion-grid": {
+    "angular-fusiongrid": {
       "projectType": "library",
       "root": "projects/fusion-grid",
       "sourceRoot": "projects/fusion-grid/src",
