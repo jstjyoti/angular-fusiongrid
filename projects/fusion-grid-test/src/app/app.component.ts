@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import FusionDataStore from "@fusioncharts/fusiondatastore"; 
+import FusionGrid from "@fusioncharts/fusiongrid"; 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -110,7 +110,7 @@ export class AppComponent {
     ]
   }
   constructor() {
-    const dataStore = new FusionDataStore();
+    const dataStore = new FusionGrid.DataStore();
     this.dataTable = dataStore.createDataTable(this.data, this.schema, {
       enableIndex: false
     });

@@ -21,9 +21,7 @@
     "@angular/router": "~11.2.10",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
-    "zone.js": "~0.11.3",
-    "@fusioncharts/fusiongrid": "../fusiongrid/packages/grid-core",
-    "@fusioncharts/fusiondatastore": "../fusiondatastore"
+    "zone.js": "~0.11.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1102.13",
@@ -43,6 +41,7 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~4.1.5"
+    "typescript": "~4.1.5",
+    "fusiongrid": "0.0.1"
   }
 }
